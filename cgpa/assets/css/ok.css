@@ -1,0 +1,28 @@
+input[type=number] {
+    margin: 2px;
+    height: 3em;
+    width: 10rem;
+}
+
+#okk {
+    font-weight: 1000;
+}
+
+#rhidoy_a, #ohin_a, #ali_a, #sadik_a, #shouvik_a, #bagchi_a, #nagib_a, #faisal_a, #jilan_a, #hujur_a, #mahin_a {
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance:textfield;
+}
