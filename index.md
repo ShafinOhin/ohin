@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/css/ok.css">
+</head>
+
+<body id="page-top">
+    <nav class="navbar navbar-light navbar-expand" id="sidebar-wrapper">
+        <div class="container"><button data-toggle="collapse" class="navbar-toggler d-none" data-target="#"></button>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav sidebar-nav" id="sidebar-nav">
+                    <li class="nav-item sidebar-brand" role="presentation"><a class="nav-link active js-scroll-trigger" href="#page-top">Brand</a></li>
+                    <li class="nav-item sidebar-nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#page-top">Home</a></li>
+                    <li class="nav-item sidebar-nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item sidebar-nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
+                    <li class="nav-item sidebar-nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item sidebar-nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="d-flex masthead" style="background-image:url('assets/img/bg-masthead.jpg');">
+        <div class="container my-auto text-center">
+            <h1 class="mb-1">&nbsp;CGPA Treat Counter</h1>
+            <h3 class="mb-5"><em>A Lagger Production</em></h3><a class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="#about">Start Counting</a>
+            <div class="overlay"></div>
+        </div>
+    </header>
+    <section id="about" class="content-section bg-light">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2>Amount is calculated by partial fraction</h2>
+                    <p class="lead mb-5"><span>CGPA range is taken 2.5 to 4. Person with CGPA less than 2.5 will not pay any money, #Respect.</span></p>
+                </div>
+                <div id="okk" class="col-lg-10 mx-auto">
+                    <h5>Enter Total Cost: </h5> <input id="totalCost" type="number"/><br><br>
+                    <h5>Enter CPGAs: (leave 0 to ignore)</h5>
+                    Rhidoy: <input id="rhidoy" type="number" value="0"/>&nbsp; <p id="rhidoy_a" style="display: inline;"></p><br>
+                    Mahin : <input id="mahin" type="number" value="0"/> &nbsp;<p id="mahin_a" style="display: inline;"></p><br>
+                    Bagchi: <input id="bagchi" type="number" value="0"/> &nbsp;<p id="bagchi_a" style="display: inline;"></p><br>
+                    Sadik : <input id="sadik" type="number" value="0"/>&nbsp; <p id="sadik_a" style="display: inline;"></p><br>
+                    Ali   : <input id="ali" type="number" value="0"/> &nbsp;<p id="ali_a" style="display: inline;"></p><br>
+                    Hujur : <input id="hujur" type="number" value="0"/> &nbsp;<p id="hujur_a" style="display: inline;"></p><br>
+                    Faisal: <input id="faisal" type="number" value="0"/>&nbsp; <p id="faisal_a" style="display: inline;"></p><br>
+                    Jilan : <input id="jilan" type="number" value="0"/>&nbsp; <p id="jilan_a" style="display: inline;"></p><br>
+                    Shouvik: <input id="shouvik" type="number" value="0"/> &nbsp;<p id="shouvik_a" style="display: inline;"></p><br>
+                    Nagib : <input id="nagib" type="number" value="0"/>&nbsp; <p id="nagib_a" style="display: inline;"></p><br>
+                    Ohin  : <input id="ohin" type="number" value="0"/>&nbsp; <p id="ohin_a" style="display: inline;"></p><br>
+                    <input type="button" class="btn btn-primary" name="submit" id="calculate" value="Calculate"/><br><br>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer text-center">
+        <div class="container">
+            <ul class="list-inline mb-5">
+                <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" href="https://facebook.com/shafinohin"><i class="icon-social-facebook"></i></a></li>
+                <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" href="#"><i class="icon-social-twitter"></i></a></li>
+                <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" href="https://github.com/ShafinOhin"><i class="icon-social-github"></i></a></li>
+            </ul>
+            <p class="text-muted mb-0 small">Copyright &nbsp;© No Copyright 2020</p>
+        </div><a class="js-scroll-trigger scroll-to-top rounded" href="#page-top"><i class="fa fa-angle-up"></i></a></footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+    <script src="assets/js/calculator.js"></script>
+</body>
+
+</html>
